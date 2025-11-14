@@ -3,7 +3,7 @@ package config
 import (
 	"testing"
 
-	"github.com/ochinchina/supervisord/util"
+	"github.com/zph/supervisord/util"
 )
 
 func createTestGroup() *ProcessGroup {

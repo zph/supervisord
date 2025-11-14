@@ -17,10 +17,10 @@ import (
 
 	"github.com/mitchellh/go-ps"
 	"github.com/ochinchina/filechangemonitor"
-	"github.com/ochinchina/supervisord/config"
-	"github.com/ochinchina/supervisord/events"
-	"github.com/ochinchina/supervisord/logger"
-	"github.com/ochinchina/supervisord/signals"
+	"github.com/zph/supervisord/config"
+	"github.com/zph/supervisord/events"
+	"github.com/zph/supervisord/logger"
+	"github.com/zph/supervisord/signals"
 	"github.com/robfig/cron/v3"
 	log "github.com/sirupsen/logrus"
 )

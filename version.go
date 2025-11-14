@@ -4,11 +4,12 @@ import (
 	"fmt"
 )
 
-// VERSION the version of supervisor
+// VERSION the version of supervisor (set via ldflags at build time)
+// Example: go build -ldflags "-X main.VERSION=v1.0.0 -X main.COMMIT=abc123"
 
 var (
-	VERSION = "v0.7.3"
-	COMMIT  = ""
+	VERSION = "dev"
+	COMMIT  = "unknown"
 )
 
 
